@@ -59,22 +59,23 @@ body {
   display: block;
   letter-spacing: 0.2px;
   text-color: black;
-
 }
 
 .menu:visited {
   text-color: black;
-
 }
+
+
 
 footer {
   width: 100%;
   text-align: center;
   bottom: 0;
+  display: block;
   height: 60px;
   margin-top: -60px;
   position: absolute;
-  display: block;
+  
 }
 
 .links {
@@ -102,16 +103,22 @@ footer {
   -webkit-text-stroke-color: black;
 }
 
-@media (max-width: 565px) { 
+
+
+@media (max-width: 571px) { 
   .links {
     display: block;
-    line-height: 33px;
-    margin: 0;
-    
+    line-height: 18px;
+    font-size: 24px;
+    text-align: center;
 }
 
-  footer {
-    padding-bottom: -15px;
+  .links:hover {
+    font-size: 24px;
+}
+
+  .menu {
+    font-size: 47px;
 }
 
   .wrapper {
@@ -129,21 +136,13 @@ footer {
 }
 
 
-@media (max-width: 469px) { 
+
+@media (max-width: 499px) { 
 
   .menu {
-    font-size: 44px;
+    font-size: 39px;
 }
- 
-}
-
-@media (max-width: 416px) { 
-
-  .menu {
-    font-size: 40px;
-  }
-
-}
+ }
 
 @font-face { font-family: MonumentExtended-Ultrabold; src: url('fonts/MonumentExtended-Ultrabold.otf'); } 
 
