@@ -62,7 +62,7 @@ body {
 }
 
 .menu:hover {
-  text-decoration; underline;
+  text-decoration: underline;
 }
 
 
@@ -111,6 +111,9 @@ footer {
     line-height: 18px;
     font-size: 24px;
     text-align: center;
+}
+
+footer {
 }
 
   .links:hover {
