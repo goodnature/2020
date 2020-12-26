@@ -61,10 +61,9 @@ body {
   text-color: black;
 }
 
-.menu:hover {
-  text-decoration: underline;
+.menu:visited {
+  text-color: black;
 }
-
 
 
 footer {
