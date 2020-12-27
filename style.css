@@ -8,6 +8,10 @@ body {
   overflow: auto;
 }
 
+title {
+  font-size: 12px;
+}
+
 .page {
   text-decoration: none;
   text-color: black;
