@@ -12,8 +12,21 @@
 
 
   </head>
-  <body>
-    <a href="second.html" class='wrapper'></a>
+<body>
+
+ 
+
+
+
+  <div class='wrappercont'>
+      <a href="second.html" class='wrapper'></a>
+      <div id="pupils_image" class='pupils'></div>
+  </div>
+ 
+  <script>
+   const pupils_image = document.getElementById('pupils_image') window.addEventListener('mousemove', e => { pupils_image.style.left = (10 + e.clientX) +'px' pupils_image.style.right = (10 + e.clientY) +'px' })
+  </script>
+
     <footer></footer>
   </body>
 </html>
