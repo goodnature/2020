@@ -8,10 +8,6 @@ body {
   overflow: auto;
 }
 
-.wrappercont {
-  display: block;
-  height: 100%;
-}
 
 .pupils {
   background-position: center;
@@ -34,13 +30,10 @@ body {
   color: black;
 }
 
-.wrapper {
-  display: block;
-  background-position: center;
-  background-image: url(images/blacklogo.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+.firstlink {
+  position: absolute;
   min-height: 100%;
+  width: 100%;
 }
 
 .wrappersecond {

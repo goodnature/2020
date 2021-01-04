@@ -1,27 +1,27 @@
 const aspect = 5376/3360
-const width = 700
+const width = 900
 
 const root = document.getElementById('eyes')
 
 const bg = document.createElement('img')
 root.appendChild(bg)
 bg.src = 'images/blacklogo.png'
-bg.style.width = width + 'px'
-bg.style.height = (width/aspect)+'px'
+bg.style.width = '100%'
+bg.style.minHeight = '100%'
 bg.style.position = 'absolute'
 
 const pupil1 = document.createElement('img')
 root.appendChild(pupil1)
 pupil1.src = 'images/pupil1.png'
-pupil1.style.width = width+'px'
-pupil1.style.height = (width/aspect)+'px'
+pupil1.style.width = '100%'
+pupil1.style.minHeight = '100%'
 pupil1.style.position = 'absolute'
 
 const pupil2 = document.createElement('img')
 root.appendChild(pupil2)
 pupil2.src = 'images/pupil2.png'
-pupil2.style.width = width+'px'
-pupil2.style.height = (width/aspect)+'px'
+pupil2.style.width = '100%'
+pupil2.style.minHeight = '100%'
 pupil2.style.position = 'absolute'
 
 
