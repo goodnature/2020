@@ -5,21 +5,21 @@ const root = document.getElementById('eyes')
 
 const bg = document.createElement('img')
 root.appendChild(bg)
-bg.src = 'blacklogo.png'
+bg.src = 'images/blacklogo.png'
 bg.style.width = width + 'px'
 bg.style.height = (width/aspect)+'px'
 bg.style.position = 'absolute'
 
 const pupil1 = document.createElement('img')
 root.appendChild(pupil1)
-pupil1.src = 'pupil1.png'
+pupil1.src = 'images/pupil1.png'
 pupil1.style.width = width+'px'
 pupil1.style.height = (width/aspect)+'px'
 pupil1.style.position = 'absolute'
 
 const pupil2 = document.createElement('img')
 root.appendChild(pupil2)
-pupil2.src = 'pupil2.png'
+pupil2.src = 'images/pupil2.png'
 pupil2.style.width = width+'px'
 pupil2.style.height = (width/aspect)+'px'
 pupil2.style.position = 'absolute'
