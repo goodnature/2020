@@ -39,6 +39,8 @@ body {
 .wrappersecond {
   background-color: #5f2928;
   min-height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .wrapperthird {
