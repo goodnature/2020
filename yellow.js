@@ -4,6 +4,8 @@ let scale = window.innerWidth / width
 let height = scale*width/aspect
 
 
+document.body.style.backgroundColor = ('#5f2928')
+
 const root = document.getElementById('eyes')
 root.style.overflow = 'hidden'
 root.style.position = 'fixed'

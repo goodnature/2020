@@ -37,19 +37,15 @@ body {
 }
 
 .wrappersecond {
-  background-color: #5f2928;
   min-height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -1;
 }
 
 .wrapperthird {
-  background-color: #00f740;
   min-height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -1;
 }
 
 .menu {
