@@ -37,22 +37,12 @@ body {
 }
 
 .wrappersecond {
-  display: block;
-  background-position: center;
-  background-image: url(images/yellowlogo.png);
-  background-repeat: no-repeat;
   background-color: #5f2928;
-  background-size: 100%;
   min-height: 100%;
 }
 
 .wrapperthird {
-  display: block;
-  background-position: center;
-  background-image: url(images/creamlogo.png);
-  background-repeat: no-repeat;
-  background-color: #1d0e81;
-  background-size: 100%;
+  background-color: #00f740;
   min-height: 100%;
 }
 
