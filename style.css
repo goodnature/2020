@@ -152,3 +152,18 @@ footer {
 
 @font-face { font-family: MonumentExtended-Ultrabold; src: url('fonts/MonumentExtended-Ultrabold.otf'); } 
 
+
+
+
+
+.bg {
+  width: 100%;
+  position: absolute;
+}
+
+.pupil {
+  width: 1%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
