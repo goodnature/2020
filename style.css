@@ -36,18 +36,6 @@ body {
   width: 100%;
 }
 
-.wrappersecond {
-  min-height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.wrapperthird {
-  min-height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 .menu {
   background-color: #ffff;
   font-family: serif;
