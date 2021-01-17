@@ -3,7 +3,7 @@ let width = 700
 let scale = window.innerWidth / width
 let height = scale*width/aspect
 
-document.body.style.backgroundColor = ('#00f740')
+document.body.style.backgroundColor = ('#00cc63')
 const root = document.getElementById('eyes')
 root.style.overflow = 'hidden'
 root.style.position = 'fixed'
